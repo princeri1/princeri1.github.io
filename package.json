@@ -1,0 +1,26 @@
+{
+  "homepage": "https://princeri1.github.io",
+  "name": "Riley Prince",
+  "version": "1.0.0",
+  "description": "Personal website and Portfolio",
+  "main": "start.js",
+  "scripts": {
+    "build": "node start.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Riley Prince",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^7.0.4",
+    "express-session": "^1.17.1",
+    "forever": "^0.14.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
