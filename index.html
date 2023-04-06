@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+<head>
+	<title> Homepage</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+	h1 {
+		text-align: center;
+	}
+	body {
+		background-image: url("background.jpg");
+	}
+	#myCarousel {
+		margin: auto;
+		padding: 100px 0;
+		width: 50%;
+	}
+	.container {
+		text-align: center;
+		background-color: DarkGrey;
+		height: 1000px;
+		border: 8px dashed yellow;;
+	}
+	.topnav {
+		background-color: #E2D400;
+		overflow: hidden;
+	}
+	.topnav a {
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 17px;
+	}
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	}
+	.topnav a.active {
+		background-color: red;
+		color: white;
+	}
+	td{border-style: solid;}
+	th{border-style: solid;}
+</style>
+</head>
+<body>
+	<div class='topnav'>
+		<a class="active" href="http://flip1.engr.oregonstate.edu:41799"> Home </a>
+		<a href="http://flip1.engr.oregonstate.edu:41799/form"> Form </a>
+		<a href="http://flip1.engr.oregonstate.edu:41799/manga"> Manga </a>
+		<a href="http://flip1.engr.oregonstate.edu:41799/anime"> Anime </a>
+	</div>
+    <div class="container">
+        <h1> Welcome to One Piece World </h1>
+        </br>
+        <h2> Strawhat Pirates Crew </h2>
+        </br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <o1 class="carousel-indicators">
+                <li data-target="#myCarousel" data-to-slide="0"></li>
+                <li data-target="#myCarousel" data-to-slide="1"></li>
+                <li data-target="#myCarousel" data-to-slide="2"></li>
+            </o1>
+            
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="Luffy.png" alt="Luffy via Pintrest">
+                </div>
+            
+                <div class="item">
+                    <img src="Zoro.jpg" alt="Zoro via Pintrest">
+                </div>
+        
+                <div class="item">
+                    <img src="Sanji.jpg" alt="Sanji via Pintrest">
+                </div>
+            </div>
+    
+    
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        </br>
+        <h3>Download a Picture of All One Piece Characters </h3>
+        <a href="/background.jpg" download> Click Me to Download</a>
+    </div>
+    
+</body>
+</html>
